@@ -1,6 +1,6 @@
 # Rythia
 
-![Capture d’écran du 2025-03-18 12-44-01](https://github.com/user-attachments/assets/ec3dbaff-a315-4af5-9a8a-0a62562021e8)
+![FractalVisualizerLogo](https://github.com/user-attachments/assets/ec3dbaff-a315-4af5-9a8a-0a62562021e8)
 Un jeu de rythme inspiré de *Sound Space*, développé en Python avec *pygame*.
 
 ## 🎧 Description
