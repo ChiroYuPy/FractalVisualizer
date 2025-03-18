@@ -8,7 +8,7 @@ def create_window():
     if not glfw.init():
         raise Exception("GLFW ne peut pas être initialisé")
 
-    window = glfw.create_window(800, 600, "Fractale", None, None)
+    window = glfw.create_window(1280, 1280, "Fractale", None, None)
     if not window:
         glfw.terminate()
         raise Exception("La fenêtre GLFW n'a pas pu être créée")
@@ -153,7 +153,7 @@ def main():
     glfw.set_cursor_pos_callback(window, mouse_move_callback)
 
     # Choisir le type de fractale (0 pour Mandelbrot, 1 pour Julia, etc.)
-    fractale_type = 1  # Changez cette valeur pour tester différentes fractales
+    fractale_type = 0  # Changez cette valeur pour tester différentes fractales
 
     # Boucle de rendu
     while not glfw.window_should_close(window):
